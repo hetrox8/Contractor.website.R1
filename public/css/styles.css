@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --light-gray: #f8f9fa;
+}
+
+.hero-section {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+              url('/images/hero-bg.jpg') center/cover;
+  min-height: 60vh;
+}
+
+.service-card {
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-modal img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.contact-form {
+  background: var(--light-gray);
+  border-radius: 15px;
+  padding: 2rem;
+}
