@@ -47,4 +47,4 @@ router.post('/contact', async (req, res) => {
   }
 });
 
-module.exports = router;
+module.exports = router;  // ✅ Export the router
